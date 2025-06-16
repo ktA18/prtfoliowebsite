@@ -123,7 +123,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-              John Doe
+              Kartikay
             </div>
             <div className="hidden md:flex space-x-8">
               {[
@@ -223,7 +223,7 @@ function App() {
               />
             </div>
             <div className="space-y-6">
-              <h3 className="text-2xl font-semibold text-white">Hello! I'm John Doe</h3>
+              <h3 className="text-2xl font-semibold text-white">Hello! I'm Kartikay</h3>
               <p className="text-gray-300 leading-relaxed">
                 I'm a passionate Full Stack Developer with over 3 years of experience creating 
                 digital solutions that bridge the gap between design and technology. My journey 
@@ -239,7 +239,7 @@ function App() {
               <div className="grid grid-cols-2 gap-4 pt-4">
                 <div className="flex items-center space-x-2">
                   <MapPin size={16} className="text-purple-400" />
-                  <span className="text-gray-300">San Francisco, CA</span>
+                  <span className="text-gray-300">India</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Calendar size={16} className="text-purple-400" />
@@ -247,7 +247,7 @@ function App() {
                 </div>
                 <div className="flex items-center space-x-2">
                   <Award size={16} className="text-purple-400" />
-                  <span className="text-gray-300">AWS Certified</span>
+                  <span className="text-gray-300">Certified Developer</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Coffee size={16} className="text-purple-400" />
@@ -372,7 +372,7 @@ function App() {
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="flex items-center justify-center space-x-2 bg-purple-600/20 p-4 rounded-lg border border-purple-600/30">
                   <Award className="text-purple-400" size={20} />
-                  <span className="text-purple-300">AWS Certified Developer</span>
+                  <span className="text-purple-300">Web Development Certified</span>
                 </div>
                 <div className="flex items-center justify-center space-x-2 bg-blue-600/20 p-4 rounded-lg border border-blue-600/30">
                   <Award className="text-blue-400" size={20} />
@@ -414,11 +414,11 @@ function App() {
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3">
                     <Mail className="text-purple-400" size={20} />
-                    <span className="text-gray-300">john.doe@email.com</span>
+                    <span className="text-gray-300">kartikay@email.com</span>
                   </div>
                   <div className="flex items-center space-x-3">
                     <MapPin className="text-purple-400" size={20} />
-                    <span className="text-gray-300">San Francisco, CA</span>
+                    <span className="text-gray-300">India</span>
                   </div>
                 </div>
               </div>
@@ -455,7 +455,7 @@ function App() {
                       type="text"
                       id="firstName"
                       className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-200 text-white"
-                      placeholder="John"
+                      placeholder="Your first name"
                     />
                   </div>
                   <div>
@@ -466,7 +466,7 @@ function App() {
                       type="text"
                       id="lastName"
                       className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-200 text-white"
-                      placeholder="Doe"
+                      placeholder="Your last name"
                     />
                   </div>
                 </div>
@@ -479,7 +479,7 @@ function App() {
                     type="email"
                     id="email"
                     className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-200 text-white"
-                    placeholder="john@example.com"
+                    placeholder="your@example.com"
                   />
                 </div>
                 
@@ -527,11 +527,11 @@ function App() {
               <p className="flex items-center space-x-1">
                 <span>Made with</span>
                 <Heart size={16} className="text-red-400" />
-                <span>by John Doe</span>
+                <span>by Kartikay</span>
               </p>
             </div>
             <div className="text-gray-400">
-              <p>&copy; 2024 John Doe. All rights reserved.</p>
+              <p>&copy; 2024 Kartikay. All rights reserved.</p>
             </div>
           </div>
         </div>
