@@ -157,9 +157,9 @@ function App() {
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
           <div className="mb-8">
             <img
-              src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=400"
-              alt="Profile"
-              className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-purple-400 shadow-2xl"
+              src="/WIN_20240729_12_25_30_Pro.jpg"
+              alt="Kartikay - Profile"
+              className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-purple-400 shadow-2xl object-cover"
             />
           </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
@@ -217,9 +217,9 @@ function App() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800"
-                alt="About me"
-                className="rounded-2xl shadow-2xl"
+                src="/WIN_20240729_12_25_30_Pro.jpg"
+                alt="Kartikay - About me"
+                className="rounded-2xl shadow-2xl object-cover w-full h-96"
               />
             </div>
             <div className="space-y-6">
